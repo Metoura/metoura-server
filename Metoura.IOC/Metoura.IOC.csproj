@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Metoura.Application\Metoura.Application.csproj" />
+      <ProjectReference Include="..\Metoura.Core\Metoura.Core.csproj" />
+    </ItemGroup>
+
+</Project>

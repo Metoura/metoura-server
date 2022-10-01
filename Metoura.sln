@@ -1,8 +1,57 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoura.Persistence", "Metoura.Persistence\Metoura.Persistence.csproj", "{145B40A9-0EED-41A2-9999-13D34DCC9C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoura.API", "Metoura.API\Metoura.API.csproj", "{22743DE3-14FE-45CB-8894-09BB40DA12F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoura.Core", "Metoura.Core\Metoura.Core.csproj", "{8705ACFA-5501-44A9-BF64-B68594A3A07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoura.IOC", "Metoura.IOC\Metoura.IOC.csproj", "{34798A9E-16F3-4447-826B-23CAECDBA70B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoura.Infrastructure", "Metoura.Infrastructure\Metoura.Infrastructure.csproj", "{EC79EEE7-AE89-47A5-9E0E-276A4B166C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoura.Application", "Metoura.Application\Metoura.Application.csproj", "{2D9DA2F1-540D-4FD0-AE68-7BA9B78A26B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{592C3543-C81A-4086-BFEF-AF1F32E850E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoura.Tests", "Metoura.Tests\Metoura.Tests.csproj", "{4F0EF632-97BC-40C1-A0B9-E96F1C1CC7E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{145B40A9-0EED-41A2-9999-13D34DCC9C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145B40A9-0EED-41A2-9999-13D34DCC9C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145B40A9-0EED-41A2-9999-13D34DCC9C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145B40A9-0EED-41A2-9999-13D34DCC9C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22743DE3-14FE-45CB-8894-09BB40DA12F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22743DE3-14FE-45CB-8894-09BB40DA12F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22743DE3-14FE-45CB-8894-09BB40DA12F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22743DE3-14FE-45CB-8894-09BB40DA12F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8705ACFA-5501-44A9-BF64-B68594A3A07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8705ACFA-5501-44A9-BF64-B68594A3A07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8705ACFA-5501-44A9-BF64-B68594A3A07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8705ACFA-5501-44A9-BF64-B68594A3A07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34798A9E-16F3-4447-826B-23CAECDBA70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34798A9E-16F3-4447-826B-23CAECDBA70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34798A9E-16F3-4447-826B-23CAECDBA70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34798A9E-16F3-4447-826B-23CAECDBA70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC79EEE7-AE89-47A5-9E0E-276A4B166C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC79EEE7-AE89-47A5-9E0E-276A4B166C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC79EEE7-AE89-47A5-9E0E-276A4B166C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC79EEE7-AE89-47A5-9E0E-276A4B166C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9DA2F1-540D-4FD0-AE68-7BA9B78A26B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9DA2F1-540D-4FD0-AE68-7BA9B78A26B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9DA2F1-540D-4FD0-AE68-7BA9B78A26B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9DA2F1-540D-4FD0-AE68-7BA9B78A26B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0EF632-97BC-40C1-A0B9-E96F1C1CC7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0EF632-97BC-40C1-A0B9-E96F1C1CC7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0EF632-97BC-40C1-A0B9-E96F1C1CC7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0EF632-97BC-40C1-A0B9-E96F1C1CC7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F0EF632-97BC-40C1-A0B9-E96F1C1CC7E3} = {592C3543-C81A-4086-BFEF-AF1F32E850E0}
 	EndGlobalSection
 EndGlobal
