@@ -11,11 +11,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Contexts" />
+      <Folder Include="EntityConfigurations" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
     </ItemGroup>
 
 </Project>

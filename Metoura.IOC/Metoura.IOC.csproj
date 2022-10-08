@@ -9,6 +9,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Metoura.Application\Metoura.Application.csproj" />
       <ProjectReference Include="..\Metoura.Core\Metoura.Core.csproj" />
+      <ProjectReference Include="..\Metoura.Persistence\Metoura.Persistence.csproj" />
     </ItemGroup>
 
 </Project>

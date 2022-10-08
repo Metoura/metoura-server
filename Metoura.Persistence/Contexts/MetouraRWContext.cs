@@ -1,17 +1,18 @@
+using Metoura.Core.Entities;
 using Metoura.Persistence.Extensions;
 using Microsoft.EntityFrameworkCore;
 
-namespace Metoura.Persistence.EntityConfigurations;
+namespace Metoura.Persistence.Contexts;
 
-public class ReadWriteContext : DbContext
+public class MetouraRWContext : DbContext
 {
-    public ReadWriteContext(DbContextOptions options) : base(options)
+    public MetouraRWContext(DbContextOptions options) : base(options)
     {
     }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyAllConfigurations<ReadWriteContext>();
+        modelBuilder.ApplyAllConfigurations<MetouraRWContext>();
         modelBuilder.ConfigureDeletableEntities();
     }
 
@@ -46,4 +47,7 @@ public class ReadWriteContext : DbContext
     }
     
     
+    public  DbSet<User> Users { get; set; }
+
+
 }
