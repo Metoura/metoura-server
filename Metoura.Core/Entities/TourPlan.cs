@@ -1,6 +1,6 @@
 namespace Metoura.Core.Entities;
 
-public class TourPlan
+public class TourPlan: BaseEntity
 {
-    
+       
 }
