@@ -1,3 +1,5 @@
+using Metoura.Core.Enums;
+
 namespace Metoura.Core.Entities;
 
 public class Review : BaseEntity
@@ -9,4 +11,8 @@ public class Review : BaseEntity
     public int Rating { get; set; }
 
     public string Comment { get; set; }
+
+    public ReviewType ReviewType {get;set;}
+
+    public Guid ReviewedId {get;set;}
 }
