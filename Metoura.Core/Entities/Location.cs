@@ -1,6 +1,6 @@
 namespace Metoura.Core.Entities;
 
-public class Location
+public class Location : BaseEntity
 {
     
 }
