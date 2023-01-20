@@ -2,11 +2,17 @@ namespace Metoura.Core.Entities;
 
 public class Admin : BaseEntity
 {
+    public string FirstName { get; set; }
+
+    public string LastName { get; set; }
+
+    public string MiddleName { get; set; }
+
+    public DateTime DateOfBirth { get; set; }
+
     public Guid UserId { get; set; }
 
     public User User { get; set; }
 
-    public Guid RoleId { get; set; }
 
-    public Role Role { get; set; }
 }
